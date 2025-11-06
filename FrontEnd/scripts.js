@@ -52,5 +52,5 @@ portfolio.insertBefore(divFiltres, galerie);
 
 // Récupération via l'API des catégories des projets
 
-const reponseCategories = await fetch("http://localhost:5678/api/categories");
-const categories = await reponseCategories.json();
+// const reponseCategories = await fetch("http://localhost:5678/api/categories");
+// const categories = await reponseCategories.json();
