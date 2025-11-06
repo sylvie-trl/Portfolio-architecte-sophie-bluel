@@ -262,3 +262,39 @@ footer nav ul {
   justify-content: flex-end;
   margin: 2em;
 }
+
+/* Modification css projet */
+
+body {
+  background-color: #fffef8;
+}
+
+footer {
+  background-color: #ffffff;
+}
+
+.filtres {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 60px 0;
+}
+
+button[class^="filtre-"] {
+  border-radius: 60px;
+  border: 1px solid #1d6154;
+  background-color: #fffef8;
+  color: #1d6154;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Syne";
+  font-weight: 700;
+  flex-shrink: 0;
+  padding: 9px 20px;
+}
+
+/* à ajouter dans le .js quand on sélectionne un filtre - par défaut, on a le bouton "tous" sélectionné */
+.filtre-actif {
+  background-color: #1d6154;
+  color: #fff;
+}
